@@ -21,3 +21,5 @@ Este é um aplicativo de quiz de múltipla escolha desenvolvido em Python usando
    ```bash
    git clone https://github.com/seu-usuario/quiz-interativo.git
    cd quiz-interativo
+2. Baixar a extensão TKinter no VsCode
+3. Abrir o arquivo main
