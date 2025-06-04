@@ -1,0 +1,32 @@
+# Quiz Interativo em Python com Tkinter
+
+## Descrição
+
+Este projeto é um quiz interativo criado com Python e Tkinter que apresenta perguntas, registra respostas e mostra a pontuação ao final. O design é moderno, com cores suaves e botões interativos que mudam de cor ao passar o mouse.
+
+## Funcionalidades
+
+- Interface limpa e responsiva com Tkinter.
+- Perguntas carregadas dinamicamente de uma base (via módulo `database`).
+- Feedback visual ao confirmar resposta.
+- Botão para reiniciar o quiz.
+- Mensagens customizadas baseadas na pontuação.
+- Efeitos visuais interativos nos botões (hover).
+
+## Tecnologias e Conceitos Aplicados
+
+- **Python 3** com a biblioteca **Tkinter** para interface gráfica.
+- **POO (Programação Orientada a Objetos):**
+  - **Abstração:** A classe `Pergunta` abstrai o conceito de pergunta.
+  - **Encapsulamento:** A classe `QuizApp` encapsula toda a lógica do quiz, protegendo o estado interno.
+  - **Herança:** Não usada neste projeto, mas facilmente extensível.
+  - **Polimorfismo:** Não aplicada, mas pode ser incluída em futuras versões para diferentes tipos de quiz.
+
+## Como executar
+
+1. Certifique-se de ter Python 3 instalado.
+2. Garanta que o módulo `database` com a função `carregar_perguntas()` esteja disponível para carregar as perguntas.
+3. Execute o arquivo principal:
+
+```bash
+python quiz_app.py
